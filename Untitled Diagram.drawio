@@ -1,9 +1,80 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Page-1" id="Sor2xOkd0_oqwav6UeiC">
-    <mxGraphModel>
+    <mxGraphModel dx="4340" dy="1410" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="onUhNNnclY4CSSlHleK5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="onUhNNnclY4CSSlHleK5-1" target="onUhNNnclY4CSSlHleK5-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-1" value="Open World Map SVG Module" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="onUhNNnclY4CSSlHleK5-8" target="onUhNNnclY4CSSlHleK5-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-8" value="Detect a click on SVG map" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="onUhNNnclY4CSSlHleK5-9" target="onUhNNnclY4CSSlHleK5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-12" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="onUhNNnclY4CSSlHleK5-11">
+          <mxGeometry x="-0.2736" y="-8" relative="1" as="geometry">
+            <mxPoint x="8" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="onUhNNnclY4CSSlHleK5-9" target="onUhNNnclY4CSSlHleK5-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-310" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-15" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="onUhNNnclY4CSSlHleK5-14">
+          <mxGeometry x="-0.142" y="2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-9" value="Clicked a country?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="onUhNNnclY4CSSlHleK5-10" target="onUhNNnclY4CSSlHleK5-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-10" value="Nothing Happens" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="onUhNNnclY4CSSlHleK5-16" target="onUhNNnclY4CSSlHleK5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-16" value="Open module for selected country as sidebar (Highlight selected country)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="670" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="onUhNNnclY4CSSlHleK5-17" target="onUhNNnclY4CSSlHleK5-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-650" y="600" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="-600" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-23" value="Close the module and store user data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="onUhNNnclY4CSSlHleK5-22">
+          <mxGeometry x="-0.1528" y="-4" relative="1" as="geometry">
+            <mxPoint x="47" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-17" value="Store labels, texts, &amp;amp; img (User Input) to selected country" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="onUhNNnclY4CSSlHleK5-24" target="onUhNNnclY4CSSlHleK5-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="onUhNNnclY4CSSlHleK5-24" value="Load the data stored for each country stored in localStorage" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
